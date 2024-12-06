@@ -1,0 +1,26 @@
+{
+  "name": "buggycodes",
+  "version": "1.0.0",
+  "description": "project filled with bugs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YongSooChul/buggycodes.git"
+  },
+  "author": "Eunbi Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YongSooChul/buggycodes/issues"
+  },
+  "homepage": "https://github.com/YongSooChul/buggycodes#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.13.0",
+    "typescript-eslint": "^8.17.0"
+  }
+}
