@@ -8,7 +8,7 @@ export class FileService {
         this.logger = new LoggerService;  // Error: Missing parentheses
     }
 
-    readJsonFile(path: string): any {  // Warning: Returns any
+    readJsonFile(path: string): string {  // Warning: Returns any
         return JSON.parse(fs.readFileSync(path));  // Error: No error handling
     }
 }
